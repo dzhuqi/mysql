@@ -9,15 +9,15 @@ include $(TOPDIR)/rules.mk
 include $(INCLUDE_DIR)/uclibc++.mk
 
 PKG_NAME:=mysql
-PKG_VERSION:=5.1.73
+PKG_VERSION:=5.7.36
 PKG_RELEASE:=3
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=\
-	http://www.mirrorservice.org/sites/ftp.mysql.com/Downloads/MySQL-5.1/ \
-	http://mysql.he.net/Downloads/MySQL-5.1/ \
-	http://www.linorg.usp.br/mysql/Downloads/MySQL-5.1/ \
-	http://mirror.switch.ch/ftp/mirror/mysql/Downloads/MySQL-5.1/
+	http://www.mirrorservice.org/sites/ftp.mysql.com/Downloads/MySQL-5.7/ \
+	http://mysql.he.net/Downloads/MySQL-5.7/ \
+	http://www.linorg.usp.br/mysql/Downloads/MySQL-5.7/ \
+	http://mirror.switch.ch/ftp/mirror/mysql/Downloads/MySQL-5.7/
 
 PKG_MD5SUM:=887f869bcc757957067b9198f707f32f
 PKG_MAINTAINER:=Jo-Philipp Wich <jo@mein.io>
